@@ -8,15 +8,25 @@ var INTERLACE = 2;
 
 var PF_PIXEL = 4;
 
-var NUMBER_OF_OBJECTS = 6;
+var NUMBER_OF_OBJECTS = 16;
 //# bit xs for collison detection
 //# bl, pf, m1, p1, m0, p0
 var BL = 0;
-var P0 = 1;
-var M0 = 2;
-var P1 = 3;
-var M1 = 4;
-var PF = 5;
+var PF = 1;
+var P0 = 2;
+var M0 = 3;
+var P1 = 4;
+var M1 = 5;
+var S0 = 6;
+var S1 = 7;
+var S2 = 8;
+var S3 = 9;
+var S4 = 10;
+var S5 = 11;
+var S6 = 12;
+var S7 = 13;
+var S8 = 14;
+var S9 = 15;
 
 var collision_detection = [NUMBER_OF_OBJECTS];
 var collision_array = [SCREEN_X * SCREEN_Y];
